@@ -1003,10 +1003,9 @@
 		value = [data.oci_core_vnic.ExatedDBSystem_VNIC1.private_ip_address]
 		}
 		
-		#TO EXECUTE TERRRAFORM YOU NEED ANOTHER FILE ASKED setup_oci_tf_var.sh
-		#CHECK THE DOCUMENT https://github.com/danilo19ee/zdatabase/blob/master/TERRAFORM/TERRAFORM%20SETUP%20ORACLE%20CLOUD%20OCI%20ENVIRONMENT
-		root@raspberrypi:~/tf_oci/LESSON6_local_block_volumes-Exated# cp /root/setup_oci_tf_var.sh .
-		root@raspberrypi:~/tf_oci/LESSON6_local_block_volumes-Exated# source setup_oci_tf_var.sh
+### TO EXECUTE TERRRAFORM YOU NEED ANOTHER FILE ASKED setup_oci_tf_var.sh
+		root@raspberrypi:~ cp /root/setup_oci_tf_var.sh .
+		root@raspberrypi:~ source setup_oci_tf_var.sh
 		
 ### RUN TERRAFORM
 
